@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(red,blue,white,black,grey,yellow,purple,brown,orange,aliceblue,green);
+}
+
+#topic-head{
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+height: 120px;
+
+justify-content: center;
+border-radius: 5px;
+    text-align: center;
+    text-shadow: 7px 4px 8px blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:aliceblue;
+   border: 1px solid rgb(219, 219, 250);
+    
+}
+
+#topic-head,h1 {
+    margin-top: 10px;
+ color:red;
+ word-spacing: 10px;
+ font-size: 6vh;
+ font-family: Arial, Helvetica, sans-serif;
+ text-shadow: 2px 5px 8px rgb(239, 113, 10);
+ background-image: conic-gradient(red,blue,white,black,grey,yellow,purple,brown,orange,aliceblue,green);
+}
+
+#C{
+    color: red;
+    font-size: 4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 5px 8px red;
+
+}
+#o{
+    color: green;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 5px 8px green;
+
+}
+#C {
+    animation: colors 5s infinite;
+}
+#o{
+    animation: colors 4s infinite;
+}
+#l{
+    animation: colors 3s infinite;
+}
+#O{
+    animation: colors 2s infinite;
+}
+#r{
+    animation: colors 1s infinite;
+
+}
+
+#l{
+    color: yellow;
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 190;
+    text-shadow: 2px 5px 8px yellow;
+}
+
+#O{
+    color: orange;
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 190;
+    text-shadow: 2px 5px 8px orange;
+}
+
+#r{
+    color: blue;
+    font-size:4rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 190;
+    text-shadow: 2px 5px 8px blue;
+}
+
+#flip-word{
+color: aqua;
+text-shadow: 2px 5px 8px rgb(21, 65, 241);
+font-size: 4rem;
+text-decoration: underline;
+
+}
+
+.color-shown {  
+    margin-left: 18px;
+    margin-right: 18px;
+justify-content: center;
+text-align: center;
+align-items: center;
+margin-top:200px;
+}
+
+#Hex-code{
+    font-size: 40px;
+    padding: 10px 50px 10px 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+.btn{  
+    margin-left: 18px;
+    margin-right: 18px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top:100px;
+
+    }
+
+    #btn-click{
+font-size: 48px;
+padding: 10px 50px 10px 50px;
+color: white;
+background-color: blue;
+border-radius: 10px;
+
+    }
+
+
+.container{
+border: 2px solid black;
+border-radius: 5px;
+margin-top: 10px;
+height:680px;
+margin-bottom: 10px;
+margin-left: 12px;
+margin-right: 12px;
+background-color:white;
+    }
+
+ #btn-click:hover{
+text-shadow: 3px 2px 15px; 
+ }
+
+    @keyframes colors {
+        0%{
+            color: blue;
+            color: yellow;
+        }
+        10%{
+            color: green;
+        }
+        20%{
+            color: brown;
+        }
+        30%{
+            color: blueviolet;
+        }
+        40%{
+            color: bisque;
+        }
+        50%{
+            color: chartreuse;
+        }
+        60%{
+            color:rgb(235, 205, 205)
+        }
+        70%{
+            color: burlywood;
+        }
+        80%{
+            color: violet;
+        }
+        90%{
+            color: darkgoldenrod;
+        }
+        100%{
+            color: darkmagenta;
+        }
+    }
+
+
+
